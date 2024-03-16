@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cognicraft {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.cognicraft-wrapper,
+.synth-wrapper {
+  position: absolute;
+  height: 4.46%;
+  width: 84.86%;
+  top: 10.44%;
+  right: 13.89%;
+  bottom: 85.1%;
+  left: 1.25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.synth-wrapper {
+  height: 4.12%;
+  width: 44.93%;
+  top: 5.88%;
+  right: 53.54%;
+  bottom: 90%;
+  left: 1.53%;
+}
+
+.creative-agency {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+}
+
+.creative-agency-wrapper {
+  position: absolute;
+  height: 1.4%;
+  width: 43.68%;
+  top: 5.73%;
+  right: 12.36%;
+  bottom: 92.87%;
+  left: 43.96%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 78.5px;
+}
+
+.img-5-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.images-wrapper-1,
+.images-wrapper-2,
+.images-wrapper-3 {
+  position: absolute;
+  height: 46.47%;
+  width: 28.54%;
+  top: 26.76%;
+  right: 35.76%;
+  bottom: 26.76%;
+  left: 35.69%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 100px 0;
+}
+
+.images-wrapper-1,
+.images-wrapper-3 {
+  height: 65.49%;
+  top: 18.81%;
+  right: 68.68%;
+  bottom: 15.7%;
+  left: 2.78%;
+}
+
+.images-wrapper-3 {
+  height: 63.35%;
+  right: 2.85%;
+  bottom: 17.84%;
+  left: 68.61%;
+}
+
+.get-in-touch {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.get-in-touch-wrapper {
+  position: absolute;
+  height: 5.27%;
+  width: 99.58%;
+  top: 89.16%;
+  right: -0.83%;
+  bottom: 5.56%;
+  left: 1.25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.freelance-developer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+}
+
+.freelance-developer-designer {
+  position: absolute;
+  height: 1.64%;
+  width: 33.4%;
+  top: 94.08%;
+  right: 64.69%;
+  bottom: 4.28%;
+  left: 1.91%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 33.2px;
+}
+
+.code-by-saad {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+}
+
+.code-by-saad-wrapper {
+  position: absolute;
+  height: 1.67%;
+  width: 22.85%;
+  top: 94.08%;
+  right: 1.94%;
+  bottom: 4.26%;
+  left: 75.21%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 33.2px;
+}
+
+.home {
+  width: 100%;
+  position: relative;
+  height: 4439px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 247.9px;
+  color: #000;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+
+@media screen and (max-width: 1200px) {
+  .cognicraft {
+    font-size: 186px;
+  }
+  .cognicraft-wrapper {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+  .synth-wrapper {
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  .creative-agency {
+    font-size: 44px;
+    text-align: center;
+  }
+  .creative-agency-wrapper {
+    width: 324px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    left: 470px;
+  }
+  .get-in-touch {
+    font-size: 186px;
+  }
+  .get-in-touch-wrapper {
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  .freelance-developer {
+    font-size: 33px;
+  }
+  .freelance-developer-designer {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .cognicraft {
+    font-size: 139px;
+  }
+  .cognicraft-wrapper,
+  .synth-wrapper {
+    padding-top: 10px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+  .synth-wrapper {
+    padding-top: 90px;
+    padding-bottom: 10px;
+  }
+  .creative-agency {
+    font-size: 33px;
+  }
+  .creative-agency-wrapper {
+    gap: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    left: 320px;
+    top: 325px;
+  }
+  .get-in-touch {
+    font-size: 135px;
+    text-align: left;
+  }
+  .get-in-touch-wrapper {
+    padding-top: 120px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .code-by-saad,
+  .freelance-developer {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cognicraft {
+    font-size: 78px;
+  }
+  .cognicraft-wrapper,
+  .synth-wrapper {
+    padding-bottom: 150px;
+    box-sizing: border-box;
+  }
+  .synth-wrapper {
+    padding-top: 150px;
+    padding-bottom: 10px;
+  }
+  .creative-agency {
+    font-size: 18px;
+  }
+  .creative-agency-wrapper {
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    left: 110px;
+    top: 335px;
+  }
+  .get-in-touch {
+    font-size: 58px;
+    text-align: left;
+  }
+  .get-in-touch-wrapper {
+    padding-top: 200px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .freelance-developer {
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    border-radius: 0;
+    min-width: 0;
+  }
+  .freelance-developer-designer {
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  .code-by-saad {
+    font-size: 14px;
+  }
+  .code-by-saad-wrapper {
+    width: 150px;
+    padding-top: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-left: -50px;
+  }
+}
+/*! locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-direction=horizontal] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+[data-scroll-direction=horizontal] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+.c-scrollbar:hover {
+  transform: scaleX(1.45);
+}
+
+.c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+  opacity: 1;
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar {
+  width: 100%;
+  height: 10px;
+  top: auto;
+  bottom: 0;
+  transform: scaleY(1);
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar:hover {
+  transform: scaleY(1.3);
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.has-scroll-dragging .c-scrollbar_thumb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar_thumb {
+  right: auto;
+  bottom: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+img {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */
